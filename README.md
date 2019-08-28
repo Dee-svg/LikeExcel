@@ -14,4 +14,4 @@
 
 
 ## 支持鸣谢
-##### 1. [SwipeBackLayout](https://github.com/gongwen/SwipeBackLayout)
+##### 1. [RecyclerView]
