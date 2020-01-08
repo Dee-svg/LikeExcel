@@ -21,7 +21,7 @@ public class DataTools {
 
     private static List<UnitData> getUnitData(int position) {
         List<UnitData> unitList = new ArrayList<>();
-        for (int i = 1; i < (10/*+position*/); i++) {
+        for (int i = 1; i < (10); i++) {
             UnitData unitData = new UnitData();
             unitData.setUnitname(i + "");
             unitData.setRoomList(getRoomList(position, i));
@@ -35,7 +35,6 @@ public class DataTools {
         for (int i = 1; i < 4; i++) {
             String roomname = unitposition + "-" + floorposition + "0" + i;
             if ((unitposition * floorposition) % i == 0) {
-//                roomname = "";
                 RoomData roomData = new RoomData();
                 roomData.setRoomname(roomname);
                 roomList.add(roomData);
